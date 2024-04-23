@@ -1,6 +1,4 @@
-@AnimaAPI_HostAddress = http://localhost:5051
+@RestApi_HostAddress = http://localhost:5555
 
-GET {{AnimaAPI_HostAddress}}/weatherforecast/
+GET {{RestApi_HostAddress}}/api/animals?orderBy=Name
 Accept: application/json
-
-###
